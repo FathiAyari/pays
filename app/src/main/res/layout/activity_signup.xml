@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="258dp"
+        android:layout_height="76dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_username_label"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="@color/purple_500"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border"
+            android:hint="Enter your username"
+            android:padding="8dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="252dp"
+        android:layout_height="85dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@color/purple_500"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border"
+            android:hint="Enter your password"
+            android:padding="8dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+
+        android:text="Sign up"
+        app:backgroundTint="#FF5722" />
+
+
+</LinearLayout>
